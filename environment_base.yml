@@ -1,6 +1,12 @@
-name: network_scanning
+name: data_mining
 
 dependencies:
   - python=3.9
   - pandas
+  - jupyter
+  - mathplotlib
+  - seaborn
   - pip
+  - pip:
+    - sklearn
+    - datetime
